@@ -11,7 +11,7 @@ namespace AbstractFactory.FactoryB
     {
         public string WhatAmI()
         {
-            return "I Am ProductA2";
+            return "Your order is Ready! I am a ProductA2";
         }
     }
 }
