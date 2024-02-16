@@ -24,5 +24,21 @@ The following design patterns are implemented in this sample code:
    ```bash
    git clone https://github.com/liaghatmand/DesignPatterns.git
 
+## ⭐ Star the Project
+
+If you find this project helpful or interesting, please consider giving it a star on GitHub. It's a simple gesture that helps boost the project's visibility.
+
+## 🤝 Contributing
+
+We welcome contributions! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 ## Acknowledgments
 The code in this repository is based on the website [refactoring guru](https://refactoring.guru/)
