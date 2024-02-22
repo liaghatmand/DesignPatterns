@@ -10,7 +10,7 @@ namespace FactoryMethod.Creators
     public abstract class Creator
     {
         //Has the FactoryMethod which creates any kind of product
-        //has the SomeOperation method wich calls on to FactoryMethod
+        //Has the SomeOperation method wich calls on to FactoryMethod
             //to create a product and do some operation on it.
         public abstract IProduct FactoryMethod();
         public string SomeOperation()
