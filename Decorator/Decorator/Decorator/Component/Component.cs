@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Decorator.Component
 {
+    //this is the wrapee: a class of objects being wrapped. It defines the basic behavior,
     public class Component : AbsComponent
     {
         public override string Operation()
         {
-            return "Component";
+            return "Defaul Behavior";
         }
     }
 }

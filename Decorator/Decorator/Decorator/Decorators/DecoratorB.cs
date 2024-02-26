@@ -9,12 +9,11 @@ namespace Decorator.Decorators
 {
     internal class DecoratorB : AbsDecorator
     {
-        public DecoratorB(AbsComponent component) : base(component)
-        {
-        }
+        public DecoratorB(AbsComponent component) : base(component) { }
+
         public override string Operation()
         {
-            return $"DecoratorB({base.Operation()})";
+            return $"{base.Operation()} wrapped with Decorator B";
         }
     }
 }
