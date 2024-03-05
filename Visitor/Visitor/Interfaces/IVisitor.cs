@@ -9,9 +9,9 @@ namespace Visitor.Interfaces
 {
     public interface IVisitor
     {
-        void ExportForCommercial(INode commercial);
-        void ExportForConstruction(INode construction);
-        void ExportForIndustrial(INode industrial);
-        void ExportForResidential(INode residential);
+        void Visit(Commercial commercial);
+        void Visit(Construction construction);
+        void Visit(Industrial industrial);
+        void Visit(Residential residential);
     }
 }

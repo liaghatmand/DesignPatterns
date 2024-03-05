@@ -9,5 +9,6 @@ namespace Visitor.Interfaces
     public interface INode
     {
         string Name { get; set; }
+        public void Accept(IVisitor visitor);
     }
 }

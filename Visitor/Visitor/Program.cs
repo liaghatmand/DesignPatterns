@@ -10,8 +10,5 @@ Graph graph = new(iNodes);
 
 foreach (INode node in graph.Nodes)
 {
-    if (node is Residential) { visitor.ExportForResidential(node); }
-    else if (node is Industrial) { visitor.ExportForIndustrial(node); }
-    else if (node is Construction) { visitor.ExportForConstruction(node); }
-    else if (node is Commercial) { visitor.ExportForCommercial(node); }
+    node.Accept(visitor);
 }

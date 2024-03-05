@@ -10,16 +10,16 @@ namespace Visitor.Visitors
 {
     public class ExportVisitor : IVisitor
     {
-        public void ExportForCommercial(INode commercial) 
+        public void Visit(Commercial commercial) 
             => Console.WriteLine("Commercial");
 
-        public void ExportForConstruction(INode construction) 
+        public void Visit(Construction construction) 
             => Console.WriteLine("Construction");
 
-        public void ExportForIndustrial(INode industrial) 
+        public void Visit(Industrial industrial) 
             => Console.WriteLine("Industrial");
 
-        public void ExportForResidential(INode residential) 
+        public void Visit(Residential residential) 
             => Console.WriteLine("Residential");
     }
 }
