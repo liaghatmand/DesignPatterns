@@ -13,7 +13,7 @@
 - Place an export method in each class and go over each node to export it.
 - But this way you will have to change each class and if another method needs to be added you have to do it again.
 
-#Second Solution
+# Second Solution
 
 - Place the method in a separated class with a method suitable for each class.
 - Use conditions to call the right method for each class.
@@ -31,7 +31,7 @@ foreach (INode node in graph.Nodes)`
 ```
 - this will end up being an enormous condition.
 
-#Best Solution
+# Best Solution
 
 - Place a method in each Node class, accepting the Visitor class.
 - "this" will represent the node class, now you passed the right class into the right method.
