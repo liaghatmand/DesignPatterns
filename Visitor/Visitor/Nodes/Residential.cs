@@ -7,7 +7,7 @@ using Visitor.Interfaces;
 
 namespace Visitor.Nodes
 {
-    internal class Residential : INode
+    public class Residential : INode
     {
         public Residential(string name)
         {
@@ -15,10 +15,5 @@ namespace Visitor.Nodes
         }
 
         public string Name { get; set; }
-
-        public void ExportToXML()
-        {
-            Console.WriteLine("Residential");
-        }
     }
 }

@@ -9,7 +9,5 @@ namespace Visitor.Interfaces
     public interface INode
     {
         string Name { get; set; }
-
-        void ExportToXML();
     }
 }
