@@ -9,5 +9,13 @@
             _nextHandler = nextHandler;
         }
 
+        protected abstract bool ProcessRequest(string request);
+
+        public void HandleRequest(string request)
+        {
+            if (!ProcessRequest(request) && _nextHandler != null)
+                _nextHandler.HandleRequest(request);
+        }
+
     }
 }
